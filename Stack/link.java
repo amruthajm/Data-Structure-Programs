@@ -29,7 +29,7 @@ public void push_s(char s) {
 		top=newnode;
 	}
 }
-
+	
 public char pop_s() {
 	node temp=top;
 	if(top.s==0 || top ==null) {System.out.println("Stack is empty");}
